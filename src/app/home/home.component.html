@@ -1,0 +1,13 @@
+<mat-toolbar>
+    <mat-toolbar-row>
+      <span>TecBikeWeb App</span>
+      <div>
+        <a mat-button [routerLink]="'/home/bike'">Bikes</a>
+        <a mat-button [routerLink]="'/home/aluguel'">Alugueis</a>
+      </div>
+    </mat-toolbar-row>  
+  </mat-toolbar>
+  
+  <div class="container-fluid">
+    <router-outlet></router-outlet>
+  </div>
